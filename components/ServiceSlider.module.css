@@ -1,0 +1,52 @@
+.slider {
+ height: 240px;
+ z-index: 50;
+}
+
+.swiperslide{
+  background-color:rgba(65, 47, 123, 0.15);
+ height: max-content;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-left: 10px;
+ padding-right: 8px;
+ border-radius: 0.5rem;
+ cursor: pointer;
+}
+
+.swiperslide:hover {
+  background-color:rgba(89, 65, 169, 0.15);
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.icon {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  color: #e11d48; 
+  margin-bottom: 4px;
+}
+
+.title {
+ font-size: 16px;
+ font-weight: 700;
+}
+
+.description{
+  color: rgb(172, 169, 168);
+  font-weight: 100;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.arrow {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  margin-top: 3px;
+}
+
+@media screen and (max-width:450px){
+  .slider{
+    height:200px ;
+  }
+}

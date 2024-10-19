@@ -1,0 +1,30 @@
+.motion {
+  position: fixed;
+  top:0;
+  bottom:0;
+  right:100%;
+  width:100vw;
+  height:100vw;
+  z-index:30;
+  background-color: #2e2257;
+}
+.motiontwo {
+  position: fixed;
+  top:0;
+  bottom:0;
+  right:100%;
+  width:100vw;
+  height:100vw;
+  z-index:20;
+  background-color: #3b2d71;
+}
+.motionthree {
+  position: fixed;
+  top:0;
+  bottom:0;
+  right:100%;
+  width:100vw;
+  height:100vw;
+  z-index:10;
+  background-color: #4b3792;
+}

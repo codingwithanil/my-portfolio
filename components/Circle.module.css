@@ -1,0 +1,24 @@
+.container {
+  width: 200px;
+  position: absolute;
+  bottom: 2px;
+  right: 16px;
+  mix-blend-mode: color-dodge;
+  animation:pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite; 
+  
+  z-index:10;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.imgcircle {
+  width: 100%;
+  height: 100%;
+}

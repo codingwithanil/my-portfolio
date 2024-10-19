@@ -1,0 +1,112 @@
+.wrapper {
+ display: inline-flex;
+ /* position: absolute; */
+ list-style: none;
+ /* margin-left:70%;
+ margin-top: 15px; */
+ font-family: "Poppins", sans-serif;
+ 
+}
+
+.wrapper .icon {
+  position: relative;
+  z-index: 50;
+  border-radius: 50%;
+  padding:10px;
+  margin: 6px;
+  width:40px;
+  height: 40px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* box-shadow: 0 10px 10px rgb(0,0, 0, 0.1); */
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.60,-0.55,0.265,1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size:0.7rem;
+  background: #fff;
+  /* color: #fff; */
+  color: black;
+  padding: 5px 8px;
+  border-radius: 2px;
+  box-shadow: 0 10px 10px rgba(247, 243, 243, 0.1);
+  opacity: 0;
+  pointer-events:none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+ top : -30px;
+ opacity: 1;
+ visibility: visible;
+ pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+} 
+
+.wrapper .Youtube:hover,
+.wrapper .Youtube:hover .tooltip,
+.wrapper .Youtube:hover .You {
+  background-color: rgb(196, 48, 43);
+  color: #fff;
+ }
+
+.wrapper .Instagram:hover,
+.wrapper .Instagram:hover .tooltip,
+.wrapper .Instagram:hover .Ins {
+ background-color:#c32aa3;
+ color: #fff;
+}
+
+.wrapper .Facebook:hover,
+.wrapper .Facebook:hover .tooltip,
+.wrapper .Facebook:hover .Face {
+  background:#3b5998;
+  color: #fff;
+}
+
+.wrapper .Twitter:hover,
+.wrapper .Twitter:hover .tooltip,
+.wrapper .Twitter:hover .Twi {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.wrapper .Linkdin:hover,
+.wrapper .Linkdin:hover .tooltip,
+.wrapper .Linkdin:hover .Link {
+  background-color: rgb(0, 119, 181);
+  color: #fff;
+}
+
+/* initial color */
+
+.You {
+  color: #fff;
+}
+.Ins {
+  color: #fff;
+}
+.Face {
+  color: #fff;
+}
+.Twi {
+  color: #fff;
+}
+.Link {
+  color: #fff;
+}
+
+
+@media screen and (max-width:700px){
+  
+}

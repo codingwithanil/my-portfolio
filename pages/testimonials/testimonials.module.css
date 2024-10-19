@@ -1,0 +1,48 @@
+.mainContainer {
+ height: 100%;
+ width: 100%;
+ background: #6231af, "primary";
+ padding-top: 4rem;
+ /* padding-bottom: 8rem; */
+ text-align: center;
+}
+
+.container {
+ width: 100%;
+ height: 100%;
+ /* mx:auto */
+ /* margin-left: auto; 
+ margin-right: auto; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  margin-top: 6rem;
+  
+}
+.text{
+  color: #e11d48; 
+}
+
+.testimonialslider {
+   /* width:auto; */
+  /* margin-left: auto; 
+ margin-right: auto; */
+   margin: 0px 250px;
+  
+}
+
+@media  screen and (max-width:1224px) {
+  .testimonialslider{
+    margin : 0px 100px;
+  }
+}
+
+@media  screen and (max-width:600px) {
+  .testimonialslider{
+    margin : 0px 20px;
+  }
+}

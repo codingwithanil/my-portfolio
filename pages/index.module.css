@@ -1,0 +1,105 @@
+.homecontainerone {
+  position: relative;
+  overflow: hidden;
+  padding: 28px 11%; 
+  width:100vw;
+  height:100vh;
+} 
+
+.homecontainertwo{
+   margin-top: 20%;
+} 
+
+.home {
+  text-align: left;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  /* --tw-gradient-from: #1e0833 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(24, 4, 43, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); */
+}
+
+.title {
+ font-size: 3.5rem;
+
+}
+
+.subtitle{
+ max-width: 400px;
+ padding-top: 20px;
+ padding-bottom: 2.5rem; 
+ color:rgb(172, 169, 168);
+ 
+}
+
+.circle {
+  margin-left: 12%;
+}
+
+.text {
+  color:#ff3d00;
+}
+
+.fixedbackground{
+ width: 1400px;
+ height:100%;
+ position: absolute;
+ right:0;
+ bottom:0;
+ object-fit: cover;
+}
+
+.firebackground {
+  background-color:transparent;
+  mix-blend-mode: color-dodge;
+  transform: translateZ(0px);
+}
+
+.mainavatar {
+  object-fit: cover;
+  max-height: 620px;
+  max-width: 737vw;
+  position: absolute;
+  bottom: 0;
+  right: 8%;
+  z-index: 1;
+}
+
+@media screen and (max-width:1280px){
+  .title {
+    font-size: 3rem;
+  }
+  .mainavatar {
+    max-width: 450px;
+    right: 8%;
+  } 
+}
+
+@media screen and (max-width:1024px){
+  .homecontainertwo{
+    margin-top: 30%;
+  } 
+  .title {
+    font-size: 2.5rem;
+    }
+
+  .mainavatar {
+    max-width: 270px;
+    right: 12%;
+  }
+}
+
+@media screen and (max-width:800px){
+  .homecontainertwo{
+   margin-top: 35%;
+  }
+  
+}
+
+@media screen and (max-width:640px){
+  
+ 
+}
+
+
+
+

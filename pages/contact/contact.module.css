@@ -1,0 +1,120 @@
+.maincontainer {
+height: 100%;
+
+}
+
+.maincontainertwo{
+ width: 100%;
+ height: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 10rem; /* 10px */
+ padding-bottom: 10rem; 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+.maincontainerthree{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ max-width: 700px;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.colortext {
+ color: rgb(212, 27, 14);
+}
+.formcontainer{
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nameemailwrapper{
+  display: flex;
+  column-gap: 1.5rem;
+  width: 100%;
+}
+.name{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+}
+.email{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+}
+.subject{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+}
+.textarea{
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 4px;
+}
+/* Button */
+.buttonwrapper{
+  z-index: 50;
+  border-radius: 99px;
+  border-color: rgba(240, 248, 255, 0.281);
+  border-width: 1px;
+  width: 120px;
+  height: 25px;
+  overflow: hidden;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.buttonwrapper:hover {
+  border-color: orangered;
+}
+
+.buttonwrapper .textarrowrapper{
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer;
+}
+
+.buttonwrapper .buttontext {
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.buttonwrapper .textarrowrapper:hover .buttontext{
+  transform: translatey(-120%);
+  opacity: 0;
+}
+
+.buttonwrapper .buttonarrow {
+  transform: translatey(100%);
+   opacity: 0; 
+  position: absolute; 
+  font-size: 22px;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.buttonwrapper .textarrowrapper:hover .buttonarrow{
+  display: flex;
+  transform: translateY(0);
+  opacity: 100;
+}
+
+@media screen and (max-width:400px) {
+  .maincontainertwo {
+    
+    margin-right:1rem;
+  }
+}

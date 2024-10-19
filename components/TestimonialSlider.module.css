@@ -1,0 +1,104 @@
+.slider {
+  height: 400px;
+  z-index: 50;
+}
+
+.swiperslidemain {
+  display: flex;
+  flex-direction: row;
+  row-gap: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.persondetailwrapper {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.persondetail {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center; 
+}
+
+.personavatar {
+ margin-bottom: 2px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.personname {
+ font-size: 1.5rem;
+}
+
+.position {
+ color: rgb(172, 169, 168);
+}
+
+.personposition {
+ font-size: 12px;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+
+}
+
+.quotewrapper {
+  
+  flex: 1 1 0%;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+   position: relative;
+}
+
+.quotewrapper::before {
+  content: '';
+  background-color: white;
+  width: 1px;
+  position:absolute;
+  left:0px;
+  height:180px;
+}
+
+.iconwrapper {
+   
+  position:absolute;
+  top:0;
+  
+}
+
+.icon {
+  font-size: 2.25rem; /* 20px */
+  line-height: 2.5rem; /* 28px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  margin-top: 3rem;
+  color: rgb(172, 169, 168);;
+}
+
+@media screen and (max-width:1224px) {
+  .swiperslidemain{
+    
+    flex-direction:column;
+  }
+}
