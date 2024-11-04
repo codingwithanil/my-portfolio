@@ -12,13 +12,9 @@
 }
 
 .header .name {
-  
   border-radius: 4px;
 }
 
-.headerright{
-  
-}
 .content {
   color: #fff;
   font-weight: 600;
@@ -45,6 +41,6 @@
    font-size:0.8rem ;
   }
   .headerright{
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }

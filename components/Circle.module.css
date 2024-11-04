@@ -1,11 +1,10 @@
 .container {
-  width: 200px;
+  width: 50px;
   position: absolute;
   bottom: 2px;
   right: 16px;
   mix-blend-mode: color-dodge;
   animation:pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite; 
-  
   z-index:10;
 }
 
@@ -22,3 +21,4 @@
   width: 100%;
   height: 100%;
 }
+

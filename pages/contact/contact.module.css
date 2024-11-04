@@ -68,7 +68,7 @@ height: 100%;
 }
 /* Button */
 .buttonwrapper{
-  z-index: 50;
+  z-index: 1;
   border-radius: 99px;
   border-color: rgba(240, 248, 255, 0.281);
   border-width: 1px;
@@ -114,7 +114,10 @@ height: 100%;
 
 @media screen and (max-width:400px) {
   .maincontainertwo {
-    
-    margin-right:1rem;
+    margin-right:2rem;
+  }
+
+  .h2 {
+    font-size: 2rem;
   }
 }

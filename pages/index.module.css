@@ -27,7 +27,7 @@
  max-width: 400px;
  padding-top: 20px;
  padding-bottom: 2.5rem; 
- color:rgb(172, 169, 168);
+ color:rgb(187, 185, 183);
  
 }
 
@@ -90,15 +90,29 @@
 
 @media screen and (max-width:800px){
   .homecontainertwo{
-   margin-top: 35%;
+    padding: 28px 18%; 
+  }
+  .homecontainertwo{
+   margin-top: 30%;
+  }
+  .mainavatar {
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width:640px){
+  .title {
+    font-size: 1.8rem;
+  }
+  .subtitle {
+    padding-bottom: 1.5rem; 
   }
   
 }
 
-@media screen and (max-width:640px){
   
  
-}
+
 
 
 

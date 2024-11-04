@@ -49,7 +49,7 @@
 /* Aboutdata */
 .aboutDatawrap {
   width:20rem;
-  z-index:50;
+  z-index:1;
 }
 
 .titlewraper {
@@ -134,7 +134,22 @@
     /* max-width: 400px; */
   }
   .paragraph{
-    font-size:12px ;
+    font-size:15px ;
     max-width:350px ;
+  }
+  .textinf {
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .h2 {
+    font-size: 1.5rem;
+    max-width:300px ;
+    margin-left: 80px;
+  }
+  .paragraph{
+    font-size:14px ;
+    max-width:300px ;
   }
 }

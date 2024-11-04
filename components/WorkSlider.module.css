@@ -1,6 +1,5 @@
 .slider {
-  max-height:fit-content;
-
+  /* max-height:fit-content; */
   z-index: 50;
  }
 
@@ -63,14 +62,30 @@
     top: 10%;
     right: 30%;
    }
+   .swiperimage {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(130px,1fr));
+    grid-auto-rows: 130px;
+   }
  }
-  
+ @media screen and (max-width:600px){
+  .swiperimage {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(110px,1fr));
+    grid-auto-rows: 110px;
+   }
+ }
 
- @media screen and (max-width:450px){
+ @media screen and (max-width:400px){
   .textcontainer{
     /* position: absolute; */
     top: 30%;
     right: 10%;
+   }
+   .swiperimage {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(100px,1fr));
+    grid-auto-rows: 100px;
    }
   
  }

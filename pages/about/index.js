@@ -71,7 +71,7 @@ const About = () => {
             animate='show'
             exit='hidden'
             className={Classes.paragraph}>
-            10 years ago, I began freelancing as a developer. Since then, I've
+            2 years ago, I began freelancing as a developer. Since then, I've
             done remote work for agencies, counsulted for startups, and
             collaborated on digital products for business and consumer use.
           </motion.p>

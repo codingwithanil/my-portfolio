@@ -53,15 +53,31 @@
   .serviceslider{
     width:600px ;
   }
+  .maincontainer {
+    margin-top: 10rem;
+  }
 }
 @media screen and (max-width:600px){
   .serviceslider{
     width:450px ;
+  }
+
+  .H2{
+    font-size: 2rem;
+  }
+  .paragraph {
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width:450px){
   .serviceslider{
     width:350px ;
+  }
+}
+
+@media screen and (max-width:375px){
+  .serviceslider{
+    width:300px ;
   }
 }

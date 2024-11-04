@@ -24,7 +24,7 @@ const Service = () => {
           exit='hidden'
           >My services<span className={classes.text}>.</span></motion.h2>  
         <p className={classes.paragraph}>
-          coding & developing websites including static,customized
+          Coding & developing websites including static,customized
           and dynamic, following industry best practies
         </p>
       </div>
